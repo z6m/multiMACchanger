@@ -7,7 +7,7 @@ Requires "maccchanger" and "net-tools".
 
 Flags:
 
-      -i : Interface name *wlan, eth, etc.* (wlan by default)
+      -i : Interface name; "wlan", "eth", etc. (wlan by default)
       -n : Number of devices (1 by default)
   
 Example Use:
