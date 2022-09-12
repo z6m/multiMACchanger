@@ -3,25 +3,30 @@ Quick and dirty script I wrote because I didn't feel like typing this out every 
 
 Requires "maccchanger" and "net-tools".
 
+-----------------------------------------
+
 Flags:
-  -i : Interface name (wlan, eth, etc.), wlan by default
-  -n : Number of devices, 1 by default
+
+      -i : Interface name *wlan, eth, etc.* (wlan by default)
+      -n : Number of devices (1 by default)
   
 Example Use:
-  ./multimac.sh -i wlan -n 3
+
+    ./multimac.sh -i wlan -n 3
 
 Example Output:
-  [*] Randomizing MAC on wlan0
-  Current MAC:   cd:e1:1d:28:30:af (unknown)
-  Permanent MAC: cd:e1:1d:28:30:af (unkown
-  New MAC:       5b:34:5e:24:f0:20 (unknown)
-  
-  [*] Randomizing MAC on wlan1
-  Current MAC:   11:9f:c5:84:f9:0a (unknown)
-  Permanent MAC: 11:9f:c5:84:f9:0a (unkown
-  New MAC:       ba:93:96:74:07:61 (unknown)
-  
-  [*] Randomizing MAC on wlan2
-  Current MAC:   a7:ee:1b:9a:48:28 (unknown)
-  Permanent MAC: a7:ee:1b:9a:48:28 (unkown
-  New MAC:       00:20:3d:bd:3c:05 (unknown)
+
+    [*] Randomizing MAC on wlan0
+    Current MAC:   cd:e1:1d:28:30:af (unknown)
+    Permanent MAC: cd:e1:1d:28:30:af (unkown
+    New MAC:       5b:34:5e:24:f0:20 (unknown)
+
+    [*] Randomizing MAC on wlan1
+    Current MAC:   11:9f:c5:84:f9:0a (unknown)
+    Permanent MAC: 11:9f:c5:84:f9:0a (unkown
+    New MAC:       ba:93:96:74:07:61 (unknown)
+
+    [*] Randomizing MAC on wlan2
+    Current MAC:   a7:ee:1b:9a:48:28 (unknown)
+    Permanent MAC: a7:ee:1b:9a:48:28 (unkown
+    New MAC:       00:20:3d:bd:3c:05 (unknown)
