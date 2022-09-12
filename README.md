@@ -1,4 +1,4 @@
-# multiMACchanger
+# multiMACrandomizer
 Quick and dirty script I wrote because I didn't feel like typing this out every time I wanted to change the MACs on my wardriving rig and wanted something I could just run on startup and take care of this for me. Useful for security nerds who use multiple wireless cards in their setup. Might flesh this out later but gets the job done for now. 
 
 Requires "maccchanger" and "net-tools".
